@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+    background: linear-gradient(to left, rgb(117, 150, 98), rgb(30, 177, 55));
+}
+
+body{
+    background-image: url(fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+p.a{
+    font-size: 30px;
+    color: rgb(18, 75, 20);
+    text-align: center;
+    background: white;
+    margin-top: 150px;
+}
+
+img.a{
+    float: left;
+    margin-left: 50px;
+}
+
+img.b{
+    float: right;
+    margin-right: 50px;
+}
+
+p.b{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(18, 75, 20);
+    background: white;
+    margin-top: 150px;
+}
+
+nav{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: #25b439;
+}
